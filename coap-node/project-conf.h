@@ -1,0 +1,10 @@
+#ifndef PROJECT_CONF_H_
+#define PROJECT_CONF_H_
+
+//#define UIP_CONF_BUFFER_SIZE 500
+#define COAP_MAX_CHUNK_SIZE 200
+#define COAP_MAX_OPEN_TRANSACTIONS 6
+
+#define LOG_ENABLED true
+
+#endif /* PROJECT_CONF_H_ */
