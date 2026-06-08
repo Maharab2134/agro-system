@@ -161,7 +161,7 @@ all operations that it’s possible to do.
 * > make TARGET=cc26x0-cc13x0 BOARD=/launchpad/cc2650 PORT=/dev/ttyACM0 NODEID=0x0001 border-router.upload
 * > make TARGET=cc26x0-cc13x0 BOARD=/launchpad/cc2650 PORT=/dev/ttyACM2 NODEID=0x0002 coap-node.upload 
 * > make TARGET=nrf52840 BOARD=dongle PORT=/dev/ttyACM4 NODEID=0x0003 coap-node.dfu-upload
-* > make TARGET=nrf52840 BOARD=dongle PORT=/dev/ttyACM5 NODEID=0x0004 mqtt-node.dfu-upload
+* > make TARGET=nrf52840 BOARD=dongle PORssT=/dev/ttyACM5 NODEID=0x0004 mqtt-node.dfu-upload
 * > make TARGET=nrf52840 BOARD=dongle PORT=/dev/ttyACM6 NODEID=0x0005 mqtt-node.dfu-upload
 
 ### Example command to get output of 2 launchers and 3 dongles:
@@ -183,5 +183,5 @@ all operations that it’s possible to do.
   <img loading='lazy' src="doc/img/grafana3.png" alt="" width="100%"/>
 </p>
 
-## Author
-* Gianluca Gemini (gianlucagemini98@gmail.com)
+## Authors
+* Gianluca Gemini (maharabhosen365@gmail.com)
